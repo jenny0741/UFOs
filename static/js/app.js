@@ -4,17 +4,21 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select("tbody");
 
-function buildTable(data){
-    tbody.html(" ");
+function buildTable(data) {
+  tbody.html("");
+  // The following function performs three actions:
+      // 1.) Loop through each object in the array
+      // 2.) Append a row to the HTML table
+      // 3.) Add each value from the object into a cell
+  data.forEach((dataRow) => {
+      let row = tbody.append("tr");
+      Object.values(dataRow).forEach((val) => {
+          let cell = row.append("td");
+          cell.text(val);
+          }
+      );
+  });
 };
-
-data.forEach((dataRow) => {
-    let row = tbody.append("tr");
-    Object.values(dataRow).forEach((val) => {
-        let cell = row.append(td);
-        cell.text(val);
-    });
-});
 
 function handleClick() {
     // Grab the datetime value from the filter
