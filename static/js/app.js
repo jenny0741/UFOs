@@ -79,6 +79,7 @@ function updateFilters() {
   d3.select("#country").on("change", updateFilters);
   d3.select("#shape").on("change", updateFilters);
   
+  d3.selectAll("#input").on("change", updateFilters);
 
   // Build the table when the page loads
   buildTable(tableData);
