@@ -7,4 +7,7 @@ Javascript and HTML code were used to create a webpage with dynamic filtering fu
 Users visiting the site can filter based on various criteria using the “filter search” section of the webpage. With the dynamic filtering function, users can filter by one search criteria or by multiple as seen in the images below. 
 
 ![static/images/filtersearch_bydate](static/images/filtersearch_bydate.png)
+![static/images/filtersearch_bydateandstate](static/images/filtersearch_bydateandstate.png)
+
+
 ## Summary
