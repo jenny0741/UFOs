@@ -13,3 +13,5 @@ Users visiting the site can filter based on various criteria using the “filter
 ## Summary
 
 A drawback with this webpage design is the lack of compatibility between devices. The table does not adjust/reformat if the website is viewed on mobile, leaving information cut off. This also doubles as a recommendation to fix device compatibility so that data can be viewed comfortably for users on different devices.
+
+Another recommendation could be to reformat the page completely and place the table and filters onto a second page to make the webpage look neater. Alternatively
